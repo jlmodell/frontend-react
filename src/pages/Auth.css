@@ -1,0 +1,15 @@
+.auth-form {
+  width: 25rem;
+  max-width: 80%;
+  margin: 2rem auto;
+}
+
+.form-control {
+  margin-top: 2rem;
+}
+
+.form-actions {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}

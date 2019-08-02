@@ -35,24 +35,24 @@ const Header = () => {
       <AppBar className={classes.appBar}>
         <Toolbar>
           <IconButton
-            edge="start"
+            edge='start'
             className={classes.menuButton}
-            color="inherit"
-            aria-label="menu"
+            color='inherit'
+            aria-label='menu'
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" className={classes.title} color="inherit">
+          <Typography variant='h6' className={classes.title} color='inherit'>
             Busse
           </Typography>
 
-          <Button component={NavLink} to="/" color="inherit">
+          <Button component={NavLink} to='/' color='inherit'>
             Home
           </Button>
-          <Button component={NavLink} to="/auth" color="inherit">
+          <Button component={NavLink} to='/auth' color='inherit'>
             Login
           </Button>
-          <Button onClick={logout} color="inherit">
+          <Button onClick={logout} color='inherit'>
             Logout
           </Button>
         </Toolbar>
